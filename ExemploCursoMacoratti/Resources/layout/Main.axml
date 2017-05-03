@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Button
+        android:text="@string/Hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MyButton" />
+    <Button
+        android:text="@string/Junior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnJunior" />
+    <Button
+        android:text="@string/Toast"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnToast"
+        android:layout_marginRight="1.5dp" />
+    <Button
+        android:text="@string/Aviso3"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAvisos"
+        android:layout_gravity="right"
+        android:layout_marginTop="-48dp" />
+</LinearLayout>
